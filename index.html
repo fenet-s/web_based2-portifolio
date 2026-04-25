@@ -5,32 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Personal portfolio website built with HTML, CSS, and JavaScript."
+      content="Fenet Seifudin - Full Stack Developer portfolio showcasing React, JavaScript, and modern web projects."
     />
-    <title>Fenet Seifudin | Portfolio</title>
+    <title>Fenet Seifudin | Full Stack Developer</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="styles.css" />
   </head>
+
   <body>
     <header class="site-header" id="top">
       <div class="container nav-wrap">
-        <a class="logo" href="#top">Portfolio<span></span></a>
+        <a class="logo" href="#top">Fenet<span>.</span></a>
 
-        <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
-          <span></span>
-          <span></span>
-          <span></span>
+        <button class="menu-toggle" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
         </button>
 
-        <nav class="site-nav" aria-label="Primary">
+        <nav class="site-nav">
           <a href="#about">About</a>
           <a href="#skills">Skills</a>
-          <a href="#projects">Projects</a>
+          <a href="#projects">Work</a>
           <a href="#contact">Contact</a>
         </nav>
 
@@ -39,119 +40,161 @@
     </header>
 
     <main>
+      <!-- HERO -->
       <section class="hero section">
         <div class="container hero-grid">
           <div>
-            <p class="eyebrow">Hello, I’m</p>
-            <h1>Fenet Seifudin</h1>
+            <p class="eyebrow">Full Stack Developer</p>
+
+            <h1>
+              Building modern web apps<br />
+              with React & JavaScript.
+            </h1>
+
             <p class="hero-text">
-              A Full Stack Developer building clean, responsive websites with
-              <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>.
+              I’m <strong>Fenet Seifudin</strong>, a software engineering student
+              passionate about building fast, clean, and scalable web
+              applications using <strong>React</strong>, <strong>Node.js</strong>,
+              and modern UI tools like <strong>Tailwind CSS</strong>.
             </p>
+
             <div class="hero-actions">
-              <a class="btn btn-primary" href="#projects">View Projects</a>
-              <a class="btn btn-ghost" href="#contact">Contact Me</a>
+              <a class="btn btn-primary" href="#projects">See My Work</a>
+              <a class="btn btn-ghost" href="#contact">Let’s Talk</a>
             </div>
           </div>
+
           <div class="card hero-card">
-            <h2>Quick Info</h2>
+            <h2>Developer Snapshot</h2>
             <ul>
               <li>📍 Adama, Ethiopia</li>
-              <li>💼 Open to opportunities</li>
-              <li>📧 fenetseifudin1@gmail.com</li>
-              <li>🔗 github.com/fenet-s</li>
+              <li>🎓 Software Engineering Student</li>
+              <li>⚡ React & Full Stack Focus</li>
+              <li>📬 fenetseifudin1@gmail.com</li>
+              <li>🐙 github.com/fenet-s</li>
             </ul>
           </div>
         </div>
       </section>
 
+      <!-- ABOUT -->
       <section class="section" id="about">
         <div class="container narrow">
           <h2>About Me</h2>
+
           <p>
-            I’m a self-driven developer who enjoys turning ideas into real, user-friendly
-            websites. I focus on performance, accessibility, and clean design.
+            I enjoy turning ideas into real, usable products. I focus on
+            building interfaces that are not just visually clean, but also
+            performant and accessible.
+          </p>
+
+          <p>
+            Currently, I’m improving my skills in <strong>React</strong>,
+            <strong>state management</strong>, and backend development, while
+            working on real-world projects like dashboards and web systems.
           </p>
         </div>
       </section>
 
+      <!-- SKILLS -->
       <section class="section" id="skills">
         <div class="container">
-          <h2>Skills</h2>
+          <h2>Tech Stack</h2>
+
           <div class="skills-grid">
-            <article class="card">HTML5</article>
-            <article class="card">CSS3</article>
+            <article class="card">HTML5 / CSS3</article>
             <article class="card">JavaScript (ES6+)</article>
-            <article class="card">Responsive Design</article>
+            <article class="card">React.js</article>
+            <article class="card">Tailwind CSS</article>
+            <article class="card">Node.js (Basics)</article>
             <article class="card">Git & GitHub</article>
-            <article class="card">Basic SEO</article>
+            <article class="card">REST APIs</article>
+            <article class="card">Responsive UI Design</article>
           </div>
         </div>
       </section>
 
+      <!-- PROJECTS -->
       <section class="section" id="projects">
         <div class="container">
           <h2>Projects</h2>
+
           <div class="projects-grid">
             <article class="card project">
-              <h3>Project One</h3>
-              <p>A modern landing page with responsive layout and smooth interactions.</p>
+              <h3>Smart Transit Navigator</h3>
+              <p>
+                A real-time transit system UI with route suggestions, maps, and
+                AI-assisted navigation features.
+              </p>
               <div class="project-links">
-                <a href="#" target="_blank" rel="noreferrer">Live</a>
-                <a href="#" target="_blank" rel="noreferrer">Code</a>
+                <a href="#">Live Demo</a>
+                <a href="#">Source Code</a>
               </div>
             </article>
 
             <article class="card project">
-              <h3>Project Two</h3>
-              <p>A small web app using JavaScript for dynamic behavior and filtering.</p>
+              <h3>Airport Lost & Found System</h3>
+              <p>
+                A full-stack web system for reporting, tracking, and managing
+                lost items efficiently.
+              </p>
               <div class="project-links">
-                <a href="#" target="_blank" rel="noreferrer">Live</a>
-                <a href="#" target="_blank" rel="noreferrer">Code</a>
+                <a href="#">Live Demo</a>
+                <a href="#">Source Code</a>
               </div>
             </article>
 
             <article class="card project">
-              <h3>Project Three</h3>
-              <p>A personal dashboard with reusable components and clean UI.</p>
+              <h3>Personal Portfolio v2</h3>
+              <p>
+                A responsive portfolio built with clean UI principles and modern
+                web design practices.
+              </p>
               <div class="project-links">
-                <a href="#" target="_blank" rel="noreferrer">Live</a>
-                <a href="#" target="_blank" rel="noreferrer">Code</a>
+                <a href="#">Live Demo</a>
+                <a href="#">Source Code</a>
               </div>
             </article>
           </div>
         </div>
       </section>
 
+      <!-- CONTACT -->
       <section class="section" id="contact">
         <div class="container narrow">
-          <h2>Contact</h2>
-          <p>If you want to work together, send me a message 👇</p>
+          <h2>Let’s Work Together</h2>
+
+          <p>
+            Got an idea, internship, or collaboration? Send a message — I usually
+            reply fast.
+          </p>
+
           <form class="contact-form" id="contact-form">
             <label>
               Name
               <input type="text" name="name" placeholder="Your name" required />
             </label>
+
             <label>
               Email
-              <input
-                type="email"
-                name="email"
-                placeholder="fenetseifudin1@gmail.com"
-                required
-              />
+              <input type="email" name="email" placeholder="Your email" required />
             </label>
+
             <label>
               Message
               <textarea
                 name="message"
                 rows="5"
-                placeholder="Write your message"
+                placeholder="Tell me about your idea..."
                 required
               ></textarea>
             </label>
-            <button class="btn btn-primary" type="submit">Send Message</button>
-            <p id="form-status" role="status" aria-live="polite"></p>
+
+            <button class="btn btn-primary" type="submit">
+              Send Message
+            </button>
+
+            <p id="form-status" role="status"></p>
           </form>
         </div>
       </section>
@@ -159,7 +202,10 @@
 
     <footer class="site-footer">
       <div class="container">
-        <p>© <span id="year"></span> Fenet Seifudin. Built with HTML, CSS, and JS.</p>
+        <p>
+          © <span id="year"></span> Fenet Seifudin — Built with HTML, CSS &
+          JavaScript.
+        </p>
       </div>
     </footer>
 
